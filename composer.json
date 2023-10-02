@@ -1,0 +1,20 @@
+{
+    "name": "asus/nutri-iot",
+    "description": "Proyecto con ESP32, PHP, MySQL, HTML, JS, CSS",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "controllers/",
+            "Models\\": "models/"
+        }
+    },
+    "authors": [
+        {
+            "name": "STIVE DIAZ",
+            "email": "stive.dv@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

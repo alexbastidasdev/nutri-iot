@@ -1,0 +1,32 @@
+/* Establecer el ancho y altura de los contenedores de gráficas */
+.chart-container {
+    width: 300px;
+    /* Ancho de los contenedores de gráficas */
+    height: 200px;
+    /* Altura de los contenedores de gráficas */
+    float: left;
+    /* Hacer que los contenedores floten a la izquierda */
+}
+
+/* Estilo específico para la gráfica de temperatura Solid */
+#container-temperature-solidTunel01 {
+    /* Personaliza los estilos según tus preferencias */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo específico para la gráfica de humedad Solid */
+#container-humidity-solidTunel01 {
+    /* Personaliza los estilos según tus preferencias */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos adicionales para pantallas pequeñas (máximo 600px de ancho) */
+@media (max-width: 600px) {
+    .chart-container {
+        height: 300px; /* Ajusta la altura para pantallas pequeñas si es necesario */
+    }
+}

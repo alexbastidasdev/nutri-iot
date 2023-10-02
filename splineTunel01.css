@@ -1,0 +1,30 @@
+/* Establecer un estilo común para los contenedores de gráficas y tablas */
+.chart-container {
+    width: 100%;
+    height: 280px; /* Altura fija para todas las gráficas */
+    margin-bottom: 20px; /* Espacio entre las gráficas */
+    float: left;
+}
+
+/* Estilo específico para la gráfica de temperatura Spline */
+#container-temperature-splineTunel01 {
+    /* Personaliza los estilos según tus preferencias */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo específico para la gráfica de humedad Spline */
+#container-humidity-splineTunel01 {
+    /* Personaliza los estilos según tus preferencias */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos adicionales para pantallas pequeñas (máximo 600px de ancho) */
+@media (max-width: 600px) {
+    .chart-container {
+        height: 300px; /* Ajusta la altura para pantallas pequeñas si es necesario */
+    }
+}
